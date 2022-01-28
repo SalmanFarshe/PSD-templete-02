@@ -1,0 +1,546 @@
+/* wide screen */
+@media (min-width: 1501px) {
+}
+/*Device = Desktops
+Screen = 1281px to higher resolution desktops*/
+@media (min-width: 1281px) and (max-width: 1500px) {
+}
+/*Device = Laptops, Desktops
+Screen = B/w 1025px to 1280px*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+	/* hero */
+	.hero-img {
+		margin-left: -20px;
+	}
+	.header {
+		width: 100%;
+		grid-template-columns: 1fr 3fr;
+		justify-items: center;
+	}
+	.hero_info {
+		width: 80%;
+	}
+	.hero_heading {
+		font-size: 40px;
+		width: 60%;
+	}
+	.hero_para {
+		width: 100%;
+		font-size: 15px;
+	}
+	.menu_link {
+		font-size: 18px;
+		padding: 10px;
+	}
+	.hero-img {
+		margin-left: 20px;
+	}
+	/* best burger and big burger */
+	.best_burger,
+	.big_burger {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.best_burger_img,
+	.big_burger_img {
+		width: 70%;
+		margin-top: 30px;
+	}
+	.best_burger,
+	.big_burger {
+		grid-template-columns: 1fr 1fr;
+	}
+	.best_burger_details_heading,
+	.big_burger_details_heading {
+		font-size: 30px;
+	}
+	.best_burger_details_para,
+	.big_burger_details_para {
+		text-align: center;
+	}
+	.best_burger_details {
+		margin-top: 100px;
+	}
+	.big_burger_details_para {
+		color: #f64b3c;
+	}
+	/* our chef statistics */
+	.our_chef,
+	.statistics {
+		width: 100%;
+	}
+	.our_chef_header_wrap,
+	.statistics_heading_wrap {
+		width: 90%;
+	}
+	.statistics_para {
+		text-align: center;
+		font-size: 15px;
+	}
+	.statistics_circle_1,
+	.statistics_circle_2,
+	.statistics_circle_3 {
+		margin-top: 30px;
+	}
+	.our_chef_header,
+	.statistics_heading {
+		font-size: 35px;
+		padding: 0px;
+	}
+	.our_chef_member_wrap,
+	.statistics_circle {
+		margin: 0 auto;
+	}
+	.our_chef_header_wrap {
+		margin: 0 auto;
+		margin-top: 50px;
+		width: 90%;
+	}
+	/* packege */
+	.packege {
+		width: 100%;
+	}
+	.packege_box_1,
+	.packege_box_2,
+	.packege_box_3 {
+		width: 80%;
+		margin: 30px auto;
+	}
+	.packege_heading {
+		font-size: 20px;
+		padding-top: 50px;
+	}
+	.packege_box_wrap {
+		grid-template-columns: 25% 25% 25%;
+	}
+	/* shape */
+	.shape_info {
+		width: 90%;
+	}
+	.shape_info > p {
+		font-size: 16px;
+	}
+	/* subsceribe */
+	.subscribe_heading {
+		width: 80%;
+	}
+	.subscribe_heading > h1 {
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.subscribe_heading > p {
+		font-size: 20px;
+	}
+	.subscribe_input {
+		width: 60%;
+	}
+	/* footer */
+	footer {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		width: 80%;
+		grid-gap: 50px;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+}
+/*Device = Tablets, Ipads (portrait)
+Screen = B/w 768px to 1024px*/
+@media (min-width: 768px) and (max-width: 1024px) {
+	/* hero */
+	.hero-img {
+		margin-left: -20px;
+	}
+	.header {
+		width: 100%;
+		grid-template-columns: 1fr 3fr;
+		justify-content: center;
+	}
+	.hero_info {
+		width: 80%;
+	}
+	.hero_heading {
+		font-size: 40px;
+		width: 60%;
+	}
+	.hero_para {
+		width: 100%;
+		font-size: 15px;
+	}
+	.menu_link {
+		font-size: 18px;
+		padding: 10px;
+	}
+	.hero-img {
+		margin-left: 20px;
+	}
+	/* best burger and big burger */
+	.best_burger,
+	.big_burger {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.best_burger_img,
+	.big_burger_img {
+		width: 70%;
+		margin-top: 30px;
+	}
+	.best_burger,
+	.big_burger {
+		grid-template-columns: 1fr 1fr;
+	}
+	.best_burger_details_heading,
+	.big_burger_details_heading {
+		font-size: 30px;
+	}
+	.best_burger_details_para,
+	.big_burger_details_para {
+		text-align: center;
+	}
+	.best_burger_details {
+		margin-top: 100px;
+	}
+	.big_burger_details_para {
+		color: #f64b3c;
+	}
+	/* our chef statistics */
+	.our_chef,
+	.statistics {
+		width: 100%;
+	}
+	.our_chef_header_wrap,
+	.statistics_heading_wrap {
+		width: 90%;
+	}
+	.statistics_para {
+		text-align: center;
+		font-size: 15px;
+	}
+	.statistics_circle_1,
+	.statistics_circle_2,
+	.statistics_circle_3 {
+		margin-top: 30px;
+	}
+	.our_chef_header,
+	.statistics_heading {
+		font-size: 35px;
+		padding: 0px;
+	}
+	.our_chef_member_wrap,
+	.statistics_circle {
+		margin: 0 auto;
+	}
+	.our_chef_header_wrap {
+		margin: 0 auto;
+		margin-top: 50px;
+		width: 90%;
+	}
+	/* packege */
+	.packege {
+		width: 100%;
+	}
+	.packege_box_1,
+	.packege_box_2,
+	.packege_box_3 {
+		width: 80%;
+		margin: 30px auto;
+	}
+	.packege_heading {
+		font-size: 20px;
+		padding-top: 50px;
+	}
+	.packege_box_wrap {
+		grid-template-columns: 25% 25% 25%;
+	}
+	/* shape */
+	.shape_info {
+		width: 90%;
+	}
+	.shape_info > p {
+		font-size: 16px;
+	}
+	/* subsceribe */
+	.subscribe_heading {
+		width: 80%;
+	}
+	.subscribe_heading > h1 {
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.subscribe_heading > p {
+		font-size: 20px;
+	}
+	.subscribe_input {
+		width: 60%;
+	}
+	/* footer */
+	footer {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		width: 80%;
+		grid-gap: 50px;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+}
+/*Stying for small screens*/
+@media screen and (max-width: 1000px) {
+	nav {
+		position: absolute;
+		z-index: 3;
+	}
+	.hamburger {
+		display: block;
+		position: fixed;
+		cursor: pointer;
+		right: 5%;
+		top: 10%;
+		transform: translate(-5%, -50%);
+		z-index: 2;
+		transition: all 0.5s ease;
+		background-color: #f64c3c9d;
+		padding: 5px;
+		border-radius: 5px;
+	}
+	.nav-links {
+		position: fixed;
+		top: 0%;
+		left: 0%;
+		background: #131418;
+		height: 100vh;
+		width: 100%;
+		clip-path: circle(50px at 90% -20%);
+		-webkit-clip-path: circle(50px at 90% -10%);
+		transition: all 0.3s ease-out;
+		pointer-events: none;
+		padding-top: 25px;
+		padding-left: 30px;
+	}
+	.nav-links li {
+		float: none;
+		padding-top: 20px;
+		list-style-type: none;
+	}
+	.login-button,
+	.join-button {
+		background-color: #f64b3c;
+		color: white;
+		border: none;
+		border-radius: 10px;
+		padding: 10px 15px;
+		margin-left: 15px;
+		cursor: pointer;
+	}
+	.nav-links.open {
+		clip-path: circle(1000px at 90% -10%);
+		-webkit-clip-path: circle(1000px at 90% -10%);
+		pointer-events: all;
+	}
+	.nav-links li {
+		opacity: 0;
+	}
+	.nav-links li:nth-child(1) {
+		transition: all 0.05s ease 0.01s;
+	}
+	.nav-links li:nth-child(2) {
+		transition: all 0.05s ease 0.02s;
+	}
+	.nav-links li:nth-child(3) {
+		transition: all 0.05s ease 0.06s;
+	}
+	.nav-links li:nth-child(4) {
+		transition: all 0.05s ease 0.07s;
+	}
+	.nav-links li:nth-child(5) {
+		transition: all 0.05s ease 0.08s;
+	}
+	.nav-links li:nth-child(6) {
+		transition: all 0.05s ease 0.09s;
+		margin: 0;
+	}
+	.nav-links li:nth-child(7) {
+		transition: all 0.05s ease 0.1s;
+		margin: 0;
+	}
+	li.fade {
+		opacity: 1;
+	}
+}
+/*Device = Low Resolution Tablets, Mobiles (Landscape)
+Screen = B/w 481px to 767px*/
+@media (min-width: 481px) and (max-width: 767px) {
+	/* our chef statistics */
+	.our_chef_member_wrap,
+	.statistics_circle {
+		display: grid !important;
+		margin: 0 auto;
+	}
+	.statistics_circle {
+		display: block !important;
+	}
+	.best_burger_img,
+	.big_burger_img {
+		width: 50% !important;
+	}
+}
+/*Device = Most of the Smartphones Mobiles (Portrait)
+Screen = B/w 320px to 479px*/
+@media (min-width: 320px) and (max-width: 480px) {
+}
+/* small devices */
+@media (max-width: 767px) {
+	/* hero */
+	.hero-img {
+		margin-left: -20px;
+	}
+	.menu {
+		display: none;
+	}
+	.header {
+		width: 100%;
+	}
+	.hero_info {
+		width: 80%;
+	}
+	.hero_heading {
+		font-size: 40px;
+		width: 100%;
+	}
+	.hero_para {
+		width: 100%;
+		font-size: 15px;
+	}
+	/* best burger and big burger */
+	.best_burger,
+	.big_burger {
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.best_burger_img,
+	.big_burger_img {
+		width: 90%;
+		margin-top: 30px;
+	}
+	.best_burger,
+	.big_burger {
+		grid-template-columns: 1fr;
+	}
+	.big_burger {
+		display: grid;
+		grid-gap: 50px;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	.big_burger_right_part {
+		grid-row: 1/2;
+	}
+	.best_burger_details_heading,
+	.big_burger_details_heading {
+		font-size: 30px;
+	}
+	.best_burger_details_para,
+	.big_burger_details_para {
+		text-align: center;
+	}
+	.best_burger_details {
+		margin-top: 100px;
+	}
+	.big_burger_details_para {
+		color: #f64b3c;
+	}
+	/* our chef statistics */
+	.our_chef,
+	.statistics {
+		width: 100%;
+	}
+	.our_chef_header_wrap,
+	.statistics_heading_wrap {
+		width: 90%;
+	}
+	.statistics_para {
+		text-align: center;
+		font-size: 15px;
+	}
+	.statistics_circle_1,
+	.statistics_circle_2,
+	.statistics_circle_3 {
+		margin-top: 30px;
+	}
+	.our_chef_header,
+	.statistics_heading {
+		font-size: 35px;
+		padding: 0px;
+	}
+	.our_chef_member_wrap,
+	.statistics_circle {
+		display: block;
+		margin: 0 auto;
+	}
+	.our_chef_header_wrap {
+		margin: 0 auto;
+		margin-top: 50px;
+		width: 90%;
+	}
+	/* packege */
+	.packege {
+		width: 100%;
+	}
+	.packege_box_wrap {
+		display: block;
+	}
+	.packege_box_1,
+	.packege_box_2,
+	.packege_box_3 {
+		width: 75%;
+		margin: 30px auto;
+	}
+	.packege_heading {
+		font-size: 20px;
+		padding-top: 50px;
+	}
+	/* shape */
+	.shape_info {
+		width: 95%;
+	}
+	.shape_info > p {
+		font-size: 16px;
+	}
+	/* subsceribe */
+	.subscribe_heading {
+		width: 100%;
+	}
+	.subscribe_heading > h1 {
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.subscribe_heading > p {
+		font-size: 20px;
+	}
+	.subscribe_input {
+		width: 40%;
+	}
+	/* footer */
+	.footer_right_part {
+		display: block;
+	}
+	footer {
+		display: block;
+		width: 80%;
+		padding: 10px;
+	}
+	.footer_left_part {
+		margin: 30px 0;
+	}
+	.right_part_part_1 {
+		margin: 60px 0;
+	}
+	.right_part_part_2 {
+		margin: 20px 0;
+	}
+	.right_part_part_3 {
+		margin-bottom: 40px;
+	}
+}

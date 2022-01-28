@@ -1,0 +1,448 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+	margin: 0%;
+	padding: 0%;
+	font-family: "Montserrat", sans-serif;
+}
+body {
+}
+/* hero */
+.hero_wrap {
+	background-image: url("../img/hero-img.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: auto;
+	padding: 50px 50px;
+}
+.top_overley {
+	width: 100%;
+	height: 50px;
+	margin-top: -100px;
+	box-shadow: 10px 0px 100px 100px black;
+	background-color: transparent;
+}
+.header {
+	width: 1200px;
+	padding-top: 30px;
+	display: grid;
+	grid-template-columns: 45% auto;
+	grid-template-rows: auto;
+	align-items: center;
+	margin: 0 auto;
+	position: relative;
+}
+nav{
+    height: 100px;
+    width: 100%;
+	padding-top: 15px;
+    display: grid;
+	align-items: center;
+	grid-template-columns: 1fr 4fr;
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 0 auto !important;
+    background-color: transparent;
+    z-index: 99999;
+}
+/*Styling Links*/
+.nav-links{
+	width: 100%;
+}
+.nav-links li{
+	float: left;
+	list-style-type: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    margin: 0px 15px;
+	color: white;
+}
+/*Styling Buttons*/
+.login-button,
+.join-button{
+    background-color: #F64B3C;
+	color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.mbtn{
+	display: grid;
+	grid-template-columns: 100px 100px;
+}
+.login-button:hover,
+.join-button:hover {
+    color: #131418;
+    background-color: #f2f5f7;
+    transition: all ease-in-out 0.2s;
+}
+.join-button{
+    background-color: #978a12 !important;
+}
+/*Styling Hamburger Icon*/
+.hamburger div{
+    width: 30px;
+    height:3px;
+    background: #f2f5f7;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+.hamburger{
+    display: none;
+}
+/*Animating Hamburger Icon on Click*/
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    transition: all 0.7s ease;
+    width:0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+.hero_info {
+	width: 1200px;
+	top: 55%;
+	margin-top: 10px;
+	left: 50%;
+	margin: 0 auto;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+.hero_heading {
+	font-size: 70px;
+	font-weight: bold;
+	color: white;
+	text-transform: capitalize;
+	width: 50%;
+}
+.hero_para {
+	width: 60%;
+	font-size: 25px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color: #ddd;
+}
+.common_button {
+	background-color: #f64b3c;
+	color: white;
+	border: none;
+	outline: none;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 25px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+/* our chef statistics */
+.our_chef_wrap,
+.statistics_wrap {
+	height: auto;
+	padding-bottom: 100px;
+	width: 100%;
+	background-color: #f6eedf;
+}
+.statistics_wrap {
+	padding-top: 50px;
+	padding-bottom: 100px;
+	background-color: #f64b3c;
+}
+.our_chef,
+.statistics {
+	width: 1200px;
+	margin: 0 auto;
+	color: #f64b3c;
+	font-weight: bold;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 200px 1fr;
+}
+.statistics {
+	color: #f6eedf;
+	grid-gap: 25px;
+}
+.our_chef_member_wrap,
+.statistics_circle {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.statistics_circle {
+	grid-gap: 25px;
+	justify-items: center;
+}
+.statistics_circle_1,
+.statistics_circle_2,
+.statistics_circle_3 {
+	border: 4px solid #f6eedf;
+	border-radius: 100%;
+	padding: 50px;
+	height: 100px;
+	width: 100px;
+	display: grid;
+	align-items: center;
+}
+.our_chef_member_img {
+	width: 50%;
+	margin-top: 100px;
+	height: auto;
+	border-radius: 100%;
+}
+.our_chef_header_wrap,
+.statistics_heading_wrap {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.our_chef_header,
+.statistics_heading {
+	font-size: 50px;
+	padding: 10px;
+	font-weight: bolder;
+}
+/* best burger and big burger */
+.best_burger_wrap {
+	background-color: #f64b3c;
+	height: auto;
+	width: 100%;
+}
+.big_burger_wrap {
+	background-color: #f6eedf;
+}
+.best_burger,
+.big_burger {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 25px;
+	padding: 100px 0px;
+}
+.best_burger_img,
+.big_burger_img {
+	border-radius: 100%;
+	width: 400px;
+	height: auto;
+}
+.best_burger_button {
+	background-color: #f6eedf;
+	color: #f64b3c;
+}
+.best_burger,
+.big_burger {
+	display: grid;
+	grid-template-columns: 30% 50%;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.big_burger {
+	grid-template-columns: 50% 30%;
+}
+.best_burger_details_heading,
+.big_burger_details_heading {
+	font-size: 50px;
+	font-weight: bolder;
+	color: #f6eedf;
+	margin-top: -50px;
+	padding-bottom: 30px;
+}
+.big_burger_details_heading {
+	color: #f64b3c;
+}
+.best_burger_details_para,
+.big_burger_details_para {
+	color: #f6eedf;
+	padding-bottom: 30px;
+}
+.big_burger_details_para {
+	color: #f64b3c;
+}
+/* packege */
+.packege_wrap {
+	background-color: #f6eedf;
+	width: 100%;
+	height: auto;
+}
+.packege {
+	width: 1200px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
+	color: #f64b3c;
+	text-align: center;
+	padding-bottom: 100px;
+}
+.packege_heading {
+	font-size: 35px;
+	padding: 50px;
+}
+.packege_box_wrap {
+	display: grid;
+	grid-template-columns: 22% 22% 22%;
+	justify-content: space-evenly;
+}
+.packege_box_1,
+.packege_box_2,
+.packege_box_3 {
+	border-radius: 10px;
+	background-color: #fff;
+	padding: 25px;
+	display: grid;
+	grid-gap: 20px;
+	justify-items: center;
+	width: 80%;
+}
+/* shape  */
+.shape_wrap {
+	height: 80vh;
+	width: 100%;
+	background-image: url("../img/bottom-bg.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.shape_overlay {
+	height: 80vh;
+	width: 100%;
+	background-color: #f14a3b88;
+	z-index: 1;
+	position: absolute;
+	top: 0%;
+}
+.shape_info {
+	color: #f6eedf;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 5;
+	text-align: center;
+	width: 800px;
+}
+.shape_info > p {
+	font-size: 20px;
+}
+.shape_info > h3 {
+	margin-top: 20px;
+	font-size: 30px;
+}
+.shape {
+	width: 1200px;
+	margin: 0 auto;
+}
+/* subscribe */
+.subscribe_wrap {
+	height: auto;
+	width: 100%;
+	background-color: #f6eedf;
+	text-align: center;
+	color: #f64b3c;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.subscribe_heading {
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.subscribe_heading > h1 {
+	font-size: 50px;
+	margin-bottom: 50px;
+}
+.subscribe_heading > p {
+	font-size: 25px;
+}
+.subscribe_input {
+	padding: 10px;
+	width: 300px;
+	height: 20px;
+	outline: none;
+	border-radius: 20px 0px 0px 20px;
+	border: none;
+}
+.subscribe_submit {
+	padding: 10px;
+	width: 100px;
+	height: 45px;
+	outline: none;
+	border-radius: 0px 20px 20px 0px;
+	border: none;
+	background-color: #f64b3c;
+	color: #f6eedf;
+	margin-left: -5px;
+	cursor: pointer;
+}
+/* footer */
+footer {
+	background-color: #303030;
+	display: grid;
+	grid-template-columns: 300px 600px;
+	grid-template-rows: 500px;
+	align-items: center;
+	justify-content: space-around;
+	width: 1200px;
+	margin: 0 auto;
+	font-family: "Montserrat", sans-serif !important;
+}
+.footer_left_part {
+	color: #ffffff;
+}
+.social_shere {
+	margin-top: 10px;
+}
+.shere_ul {
+	list-style-type: none;
+}
+.shere_li {
+	float: left;
+}
+.shere_link {
+	color: #ffffffa4;
+	padding: 5px;
+}
+.footer_right_part {
+	color: #ffffff;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+.right_part_part_1 > ul {
+	list-style-type: none;
+}
+.right_part_part_1 > ul > li > a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 5px;
+}
+.right_part_part_2 > ul {
+	list-style-type: none;
+}
+.right_part_part_2 > ul > li > a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 5px;
+}
+.right_part_part_3 > ul {
+	list-style-type: none;
+}
+.right_part_part_3 > ul > li > a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 5px;
+}
+.footer_wrap {
+	width: 100%;
+	background-color: #303030;
+}
+.footer_left_part_para {
+	margin-top: 5px;
+}
